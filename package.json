@@ -1,0 +1,32 @@
+{
+  "name": "hola-mundo-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "glob": "^11.0.1",
+    "lru-cache": "^11.0.2"
+  },
+  "overrides": {
+    "glob": "^11.0.1"
+  },
+"test": {
+    "jest": {
+      "roots": [
+        "<rootDir>/src"
+      ]
+    }
+  }
+
+
+}
+
